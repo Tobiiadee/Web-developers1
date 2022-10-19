@@ -1,0 +1,15 @@
+.slid-right {
+    animation: slideInRight;
+    animation-duration: 2s;
+}
+
+
+.slid-left {
+    animation: slideInLeft;
+    animation-duration: 2s;
+}
+
+.slid-up {
+    animation: slideInUp;
+    animation-duration: 2s;
+}

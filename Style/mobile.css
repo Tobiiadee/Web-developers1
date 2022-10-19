@@ -1,0 +1,243 @@
+@media (max-width: 798px) {
+
+* {
+    /* outline: 1px solid red; */
+}
+
+.main {
+    border-radius: 0 0 30% 0 !important;
+
+}    
+
+
+.main header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 0;
+    place-content: center;
+    
+}
+
+.main header button {
+    background: none;
+
+    /* margin-left: -150px; */
+}
+
+.main header button .hamburger {
+    display: block;
+    position: relative;
+
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+}
+
+.main header button .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+
+    left: 0;
+    top: 8px;
+
+}
+
+.main header .logo {
+    grid-column: 2;
+
+    margin-left: -200px;
+}
+
+.main header .block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+
+    width: 40%;
+    height: 100%;
+
+    display: none;
+}
+
+.main header .block .btn {
+    background: none;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.main header .block .btn .hamburger {
+    transform: rotate(45deg);
+}
+
+.main header .block .btn .hamburger::after {
+    content: "";
+    transform: rotate(90deg);
+    top: 0;
+    
+}
+
+.main header .block nav {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.main header .block nav ul {
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.main header .block nav ul li {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.main header .block .action {
+    display: block;
+    align-self: center;
+
+    margin-top: 8rem;
+
+}
+
+main {
+
+}
+
+main section {
+    display: grid;
+    grid-template-rows: 350px 1fr;
+
+    margin-top: 8rem;
+    /* border: 1px solid; */
+
+    width: 100%;
+    
+}
+
+main section .sec-img {
+    grid-row: 1;
+    display: block;
+}
+
+main section .sec-img .img {
+    width: 300px;
+    height: 300px;
+}
+
+main section .sec-container {
+    grid-row: 2;
+    width: 90%;
+    place-self: center;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center;
+    justify-content: center; */
+
+    width: 100%;
+
+    /* border: 1px solid; */
+}
+
+.section .sec-image2 {
+    justify-self: center;
+    align-self: center;
+}
+
+.section .sec1 {
+    /* display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+    align-content: center; */
+    width: 100%;
+
+    /* border: 1px solid; */
+}
+
+.section .sec1 h1 {
+    display: block;
+    
+    margin-left: 4rem;
+
+    /* border: 1px solid; */
+}
+
+.section .sec1 .sec1-main {
+    width: 90vw;
+    margin-left: 2rem;
+}
+
+.section .sec1 .boxes {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex .flex-box {
+    align-self: center;
+}
+
+.the-section {
+    all: unset;
+    display: flex !important;
+
+    justify-content: center;
+    
+}
+
+.the-section .main-section {
+   display: flex !important;
+   flex-direction: column;
+  
+}
+
+.the-section .main-section .box1 {
+    margin-bottom: 2rem;
+}
+
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 1rem;
+}
+
+footer {
+
+}
+
+footer .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1rem;
+
+    place-content: center;
+
+    width: 100%;
+}
+
+
+}
