@@ -61,7 +61,7 @@ section .sec-img {
 
 
 section .sec-img .img {
-    background: url(images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
+    background: url(/images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
     width: 400px;
     height: 400px;
 
@@ -91,7 +91,7 @@ section .sec-img .img {
 }
 
 section .sec-img .img1 {
-    background: url(images/al-ishrak-sunny-kxvDKINM0ZU-unsplash.jpg);
+    background: url(/images/al-ishrak-sunny-kxvDKINM0ZU-unsplash.jpg);
     background-size: cover;
 
     width: 200px;
@@ -108,7 +108,7 @@ section .sec-img .img1 {
     animation-iteration-count: infinite;
 }
 section .sec-img .img2 {
-    background: url(images/dan-7th-vGNVhp3HyCY-unsplash.jpg);
+    background: url(/images/dan-7th-vGNVhp3HyCY-unsplash.jpg);
     background-size: cover;
 
     width: 200px;
@@ -127,7 +127,7 @@ section .sec-img .img2 {
     animation-iteration-count: infinite;
 }
 section .sec-img .img3 {
-    background: url(images/lazarescu-alexandra-Yj1UOB_OabQ-unsplash.jpg);
+    background: url(/images/lazarescu-alexandra-Yj1UOB_OabQ-unsplash.jpg);
     background-size: cover;
 
     width: 80px;
@@ -144,7 +144,7 @@ section .sec-img .img3 {
     animation-iteration-count: infinite;
 }
 section .sec-img .img4 {
-    background: url(images/richard-brutyo-Sg3XwuEpybU-unsplash.jpg);
+    background: url(/images/richard-brutyo-Sg3XwuEpybU-unsplash.jpg);
     background-size: cover;
 
     width: 70px;
@@ -160,7 +160,7 @@ section .sec-img .img4 {
     animation-iteration-count: infinite;
 }
 section .sec-img .img5 {
-    background: url(images/samuele-errico-piccarini-JEBqFu2AOOA-unsplash.jpg);
+    background: url(/images/samuele-errico-piccarini-JEBqFu2AOOA-unsplash.jpg);
     background-size: cover;
 
     width: 120px;
@@ -178,7 +178,7 @@ section .sec-img .img5 {
 }
 
 .section .sec-image2 {
-    background: url(images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg);
+    background: url(/images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg);
     background-size: cover;
     border-radius: 20px;
 
